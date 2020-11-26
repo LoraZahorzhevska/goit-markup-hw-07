@@ -434,3 +434,56 @@ p {
 .social-icons-item:not(:last-child) {
   margin-right: 10px;
 }
+
+.container-input {
+  margin-left: 93px;
+  padding-top: 72px;
+  padding-bottom: 94px;
+}
+
+.form-field-footer {
+  display: flex;
+}
+
+.form-input-footer {
+  margin: 0;
+  margin-right: 12px;
+  padding: 15px 0 15px 16px;
+  width: 358px;
+  height: 50px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: transparent;
+
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.button-footer {
+  display: inline-flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 29px;
+  border: none;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px;
+
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: var(--white);
+}
+
+.footer-icon {
+  margin-left: 10px;
+  fill: var(--white);
+}
