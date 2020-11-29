@@ -1,11 +1,6 @@
 .link-nav,
 .link-contact {
-  color: $title-text-color;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
+  @extend %links-header;
 }
 
 .contact .link-contact {
@@ -27,9 +22,5 @@
 
 .link-footer,
 .address {
-  color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
+  @extend %links-footer;
 }

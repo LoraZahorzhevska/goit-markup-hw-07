@@ -30,13 +30,12 @@
   min-height: 581px;
   background-color: $white;
   transition: transform 0.5s;
-}
 
-.is-hidden .modal {
-  transform: translate(-50%, 0%) scale(0.5);
-  transition: transform 0.5s;
+  .is-hidden & {
+    transform: translate(-50%, 0%) scale(0.5);
+    transition: transform 0.5s;
+  }
 }
-
 .btn-close {
   display: block;
   margin-left: auto;
