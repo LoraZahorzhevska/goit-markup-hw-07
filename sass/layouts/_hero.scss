@@ -8,7 +8,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/hero-opt.jpg");
+    url('../images/hero-opt.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -16,7 +16,7 @@
 
 .hero-title,
 .button {
-  color: var(--white);
+  color: $white;
 }
 
 .hero-container {
@@ -37,4 +37,9 @@
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.footer,
+.hero {
+  background-color: $dark-bg;
 }

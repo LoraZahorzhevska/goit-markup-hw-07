@@ -9,20 +9,19 @@
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+
+  &::before {
+    display: block;
+    margin-bottom: 30px;
+    content: '';
+    height: 120px;
+    border-radius: 4px;
+
+    background-color: $team-bg;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
-
-.features-item::before {
-  display: block;
-  margin-bottom: 30px;
-  content: "";
-  height: 120px;
-  border-radius: 4px;
-
-  background-color: var(--team-bg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .icon-antenna::before {
   background-image: url(../images/svg/features/antenna-1.svg);
 }

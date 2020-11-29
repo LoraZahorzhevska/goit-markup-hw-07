@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -46,11 +46,6 @@ img {
   text-decoration: none;
 }
 
-.footer,
-.hero {
-  background-color: var(--dark-bg);
-}
-
 .container .title {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -63,10 +58,8 @@ img {
   padding-bottom: 94px;
 }
 
-
-
 .title {
-  color: var(--title-text-color);
+  color: $title-text-color;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
@@ -76,16 +69,19 @@ img {
 
 .features,
 .work-section {
-  color: var(--light-bg);
+  color: $light-bg;
 }
 
-
+.footer,
+.hero {
+  background-color: $dark-bg;
+}
 
 .text {
   margin-top: 0px;
   margin-bottom: 0px;
 
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.03em;

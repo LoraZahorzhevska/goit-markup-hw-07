@@ -13,13 +13,12 @@
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition: all 0.5s ease-in;
-}
 
-.backdrop.is-hidden {
-  opacity: 0;
-  pointer-events: none;
+  &.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
 }
-
 .modal {
   position: absolute;
   top: 50%;
@@ -29,13 +28,32 @@
 
   min-width: 528px;
   min-height: 581px;
-  background-color: var(--white);
+  background-color: $white;
   transition: transform 0.5s;
 }
 
 .is-hidden .modal {
   transform: translate(-50%, 0%) scale(0.5);
   transition: transform 0.5s;
+}
+
+.btn-close {
+  display: block;
+  margin-left: auto;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background-color: $white;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .modal-close {

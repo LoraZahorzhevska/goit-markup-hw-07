@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -32,7 +32,7 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 
-  color: var(--light-bg);
+  color: $light-bg;
 }
 
 .visually-hidden {
@@ -61,7 +61,7 @@ img {
 }
 
 .content {
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;

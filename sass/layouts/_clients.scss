@@ -13,9 +13,7 @@
   flex-basis: calc(100% / 6 - 30px);
   margin-left: 30px;
   margin-top: 30px;
-}
 
-.clients-icons-item {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
@@ -26,22 +24,21 @@
   align-items: center;
   width: 170px;
   height: 90px;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &:hover .clients-icons-svg,
+  &:focus .clients-icons-svg {
+    fill: $accent-color;
+
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
-
-.clients-icons-link:hover,
-.clients-icons-link:focus {
-  border: 1px solid var(--accent-color);
-
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients-icons-link:hover .clients-icons-svg,
-.clients-icons-link:focus .clients-icons-svg {
-  fill: var(--accent-color);
-
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .clients-icons-svg {
-  fill: var(--icons);
+  fill: $icons;
 }
