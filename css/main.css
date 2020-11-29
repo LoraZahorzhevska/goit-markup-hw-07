@@ -9,16 +9,6 @@
   --icons: #afb1b8;
 }
 
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --white: #ffffff;
-  --dark-bg: #2f303a;
-  --light-bg: #e5e5e5;
-  --btn-bg: #f5f4fa;
-}
-
 @font-face {
   font-family: "Raleway";
   font-style: normal;
